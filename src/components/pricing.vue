@@ -6,29 +6,28 @@ export default {
 
 <template>
   <!--START PRICING-->
-  <section class="section bg-light" id="pricing">
+  <section class="section bg-overlay" id="pricing">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <h1 class="section-title text-center">Our Pricing</h1>
+          <h1 class="section-title text-center text-white">技术方向</h1>
           <div class="section-title-border margin-t-20"></div>
-          <p
-            class="section-subtitle font-secondary text-muted text-center padding-t-30"
-          >Call to action pricing table is really crucial to your for your business website. Make your bids stand-out with amazing options.</p>
+          <p class="section-subtitle font-secondary text-white text-center padding-t-30">Reshape the AI drive application
+            pattern, creating unprecedented possibilities for AI and human intelligence fusion to pave the way.</p>
         </div>
       </div>
       <div class="row margin-t-50">
         <div class="col-lg-4">
           <div class="text-center pricing-box">
-            <h4 class="text-uppercase">Economy</h4>
-            <h1>$9.90</h1>
-            <h6 class="text-uppercase text-muted">Billing Per Month</h6>
+            <h4 class="text-uppercase">LLM Service</h4>
+            <!-- <h1>$9.90</h1> -->
+            <!-- <h6 class="text-uppercase text-muted">Billing Per Month</h6> -->
             <div class="plan-features margin-t-50">
               <p>
-                Bandwidth:
-                <b class="text-custom">1GB</b>
+                details:
+                <b class="text-custom">LLM Service.</b>
               </p>
-              <p>
+              <!-- <p>
                 Onlinespace:
                 <b class="text-custom">50MB</b>
               </p>
@@ -41,9 +40,9 @@ export default {
               </p>
               <p>
                 <b class="text-custom">No</b> Hidden Fees
-              </p>
+              </p> -->
             </div>
-            <a href="#" class="btn btn-custom margin-t-30">Join Now</a>
+            <!-- <a href="#" class="btn btn-custom margin-t-30">Join Now</a> -->
           </div>
         </div>
         <div class="col-lg-4">
@@ -51,15 +50,15 @@ export default {
             <div class="ribbon-box">
               <span>Popular</span>
             </div>
-            <h4 class="text-uppercase">Deluxe</h4>
-            <h1>$19.90</h1>
-            <h6 class="text-uppercase text-muted">Billing Per Month</h6>
+            <h4 class="text-uppercase">数据合成</h4>
+            <!-- <h1>$19.90</h1> -->
+            <!-- <h6 class="text-uppercase text-muted">Billing Per Month</h6> -->
             <div class="plan-features margin-t-50">
               <p>
-                Bandwidth:
-                <b class="text-custom">10GB</b>
+                details:
+                <b class="text-custom">数据合成</b>
               </p>
-              <p>
+              <!-- <p>
                 Onlinespace:
                 <b class="text-custom">500MB</b>
               </p>
@@ -72,22 +71,22 @@ export default {
               </p>
               <p>
                 <b class="text-custom">No</b> Hidden Fees
-              </p>
+              </p> -->
             </div>
-            <a href="#" class="btn btn-custom margin-t-30">Join Now</a>
+            <!-- <a href="#" class="btn btn-custom margin-t-30">Join Now</a> -->
           </div>
         </div>
         <div class="col-lg-4">
           <div class="text-center pricing-box">
-            <h4 class="text-uppercase">Ultimate</h4>
-            <h1>$29.90</h1>
-            <h6 class="text-uppercase text-muted">Billing Per Month</h6>
+            <h4 class="text-uppercase">行业大模型</h4>
+            <!-- <h1>$29.90</h1> -->
+            <!-- <h6 class="text-uppercase text-muted">Billing Per Month</h6> -->
             <div class="plan-features margin-t-50">
               <p>
-                Bandwidth:
-                <b class="text-custom">100GB</b>
+                details:
+                <b class="text-custom">行业大模型</b>
               </p>
-              <p>
+              <!-- <p>
                 Onlinespace:
                 <b class="text-custom">2 GB</b>
               </p>
@@ -100,9 +99,9 @@ export default {
               </p>
               <p>
                 <b class="text-custom">No</b> Hidden Fees
-              </p>
+              </p> -->
             </div>
-            <a href="#" class="btn btn-custom margin-t-30">Join Now</a>
+            <!-- <a href="#" class="btn btn-custom margin-t-30">Join Now</a> -->
           </div>
         </div>
       </div>

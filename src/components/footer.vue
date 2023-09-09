@@ -14,17 +14,17 @@ export default {
       <div class="container">
         <div class="row">
           <div class="col-lg-3 margin-t-20">
-            <h4>HIRIC</h4>
+            <h4>xDAN -AI</h4>
             <div class="text-muted margin-t-20">
               <ul class="list-unstyled footer-list">
                 <li>
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">About us</a>
+                  <a href="#">Business</a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="#">Product</a>
                 </li>
                 <li>
                   <a href="#">Contact us</a>

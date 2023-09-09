@@ -3,7 +3,12 @@
  * About component
  */
 export default {
-  name: 'About'
+  name: 'About',
+  methods: {
+    linkTo(src) {
+      console.log(src);
+    }
+  }
 }
 </script>
 
@@ -14,53 +19,55 @@ export default {
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <div class="about-title mx-auto text-center">
-            <h2
-              class="font-weight-light"
-            >A Digital web studio creating stunning &amp; Engaging online Experiences</h2>
-            <p
-              class="text-muted pt-4"
-            >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+            <h2 class="section-title text-center">公司产品</h2>
+            <p class="text-muted pt-4"> xDAN -AI 站在AI创新的前沿，具有创新产品 忘不了AI Note 、 网红元宇宙 和 课堂笔记</p>
           </div>
         </div>
       </div>
-      <div class="row margin-t-50">
-        <div class="col-lg-3 col-sm-6">
+      <div class="row margin-t-50 justify-content-center">
+        <!-- <div class="col-lg-3 col-sm-6"> -->
+        <div class="col-lg-3 col-sm-6 text-center">
           <div class="team-box text-center">
             <div class="team-wrapper">
               <div class="team-member">
-                <img alt src="@/assets/images/team/img-1.jpg" class="img-fluid rounded" />
+                <img alt src="@/assets/images/products/memory.jpg" class="img-fluid rounded" />
               </div>
             </div>
-            <h4 class="team-name">Frank Johnson</h4>
-            <p class="text-uppercase team-designation">CEO</p>
+            <h4 class="team-name">忘不了</h4>
+            <p class="text-uppercase team-designation">
+              基于现代人的记忆遗忘和信息过载问题完成语音交互，一键智能检索海量信息 Al原生时代的个人记忆助手
+            </p>
+            <p class="text-uppercase team-designation">
+              <i class="mdi mdi-arrow-right" @click="linkTo(1)"></i>
+            </p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-sm-6">
+        <!-- <div class="col-lg-3 col-sm-6">
           <div class="team-box text-center">
             <div class="team-wrapper">
               <div class="team-member">
-                <img alt src="@/assets/images/team/img-2.jpg" class="img-fluid rounded" />
+                <img alt src="@/assets/images/products/universe.png" class="img-fluid rounded" />
               </div>
             </div>
-            <h4 class="team-name">Elaine Stclair</h4>
+            <h4 class="team-name">网红元宇宙</h4>
             <p class="text-uppercase team-designation">Designer</p>
           </div>
-        </div>
-
+        </div> -->
+        <!-- 
         <div class="col-lg-3 col-sm-6">
           <div class="team-box text-center">
             <div class="team-wrapper">
               <div class="team-member">
-                <img alt src="@/assets/images/team/img-3.jpg" class="img-fluid rounded" />
+                <img alt src="@/assets/images/products/classnotes.png" class="img-fluid rounded" />
               </div>
             </div>
-            <h4 class="team-name">Wanda Arthur</h4>
+            <h4 class="team-name">课堂笔记</h4>
             <p class="text-uppercase team-designation">Developer</p>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-lg-3 col-sm-6">
+        <!-- <div class="col-lg-3 col-sm-6">
           <div class="team-box text-center">
             <div class="team-wrapper">
               <div class="team-member">
@@ -70,7 +77,7 @@ export default {
             <h4 class="team-name">Joshua Stemple</h4>
             <p class="text-uppercase team-designation">Manager</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
