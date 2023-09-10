@@ -27,6 +27,7 @@ export default {
                   <p class="pt-2 text-muted">
                     基于现代人的记忆遗忘和信息过载问题，完成语音交互，一键智能检索海量信息 AI原生时代的个人记忆助手。
                   </p>
+                  <i class="mdi mdi-arrow-right text-custom"></i>
                 </div>
               </div>
             </div>
@@ -40,6 +41,7 @@ export default {
                   <p class="pt-2 text-muted">
                     为法律领域提供更高效、准确和智能化的解决方案，为人们在法律事务中提供强大的支持和帮助。
                   </p>
+                  <i class="mdi mdi-arrow-right text-custom"></i>
                 </div>
               </div>
             </div>

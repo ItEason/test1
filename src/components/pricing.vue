@@ -42,7 +42,10 @@ export default {
                 <b class="text-custom">No</b> Hidden Fees
               </p> -->
             </div>
-            <!-- <a href="#" class="btn btn-custom margin-t-30">Join Now</a> -->
+            <a href="#" class="btn btn-custom margin-t-30">
+              more
+              <i class="mdi mdi-arrow-right"></i>
+            </a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -73,7 +76,10 @@ export default {
                 <b class="text-custom">No</b> Hidden Fees
               </p> -->
             </div>
-            <!-- <a href="#" class="btn btn-custom margin-t-30">Join Now</a> -->
+            <a href="#" class="btn btn-custom margin-t-30">
+              more
+              <i class="mdi mdi-arrow-right"></i>
+            </a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -101,7 +107,10 @@ export default {
                 <b class="text-custom">No</b> Hidden Fees
               </p> -->
             </div>
-            <!-- <a href="#" class="btn btn-custom margin-t-30">Join Now</a> -->
+            <a href="#" class="btn btn-custom margin-t-30">
+              more
+              <i class="mdi mdi-arrow-right"></i>
+            </a>
           </div>
         </div>
       </div>

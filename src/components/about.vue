@@ -20,6 +20,7 @@ export default {
         <div class="col-lg-8 offset-lg-2">
           <div class="about-title mx-auto text-center">
             <h2 class="section-title text-center">公司产品</h2>
+            <div class="section-title-border margin-t-20"></div>
             <p class="text-muted pt-4"> xDAN -AI 站在AI创新的前沿，具有创新产品 忘不了AI Note 、 网红元宇宙 和 课堂笔记</p>
           </div>
         </div>

@@ -6,6 +6,7 @@ import Scrollspy from 'vue2-scrollspy';
 import BootstrapVue from 'bootstrap-vue'
 import VueYoutube from 'vue-youtube'
 import VueParticles from 'vue-particles'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 var VueScrollTo = require('vue-scrollto');
 
