@@ -70,7 +70,8 @@ export default {
           <div class="col-lg-3 margin-t-20">
             <h4>Subscribe</h4>
             <div class="text-muted margin-t-20">
-              <p>In an ideal world this text wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts.</p>
+              <p>In an ideal world this text wouldn’t exist, a client would acknowledge the importance of having web copy
+                before the design starts.</p>
             </div>
             <form class="form subscribe">
               <input placeholder="Email" class="form-control" required />
@@ -90,9 +91,8 @@ export default {
         <div class="row">
           <div class="col-lg-12">
             <div class="float-left pull-none">
-              <p
-                class="copy-rights text-muted mb-3 mb-sm-0"
-              >2019 - {{ new Date().getFullYear()}} © Hiric - Themesbrand</p>
+              <p class="copy-rights text-muted mb-3 mb-sm-0">2019 - {{ new Date().getFullYear() }} © xDAN-AI - Themesbrand
+              </p>
             </div>
             <div class="float-right pull-none">
               <ul class="list-inline social m-0">

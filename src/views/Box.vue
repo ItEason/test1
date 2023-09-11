@@ -1,16 +1,18 @@
 <template>
     <section id="box" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
                     <h1 class="section-title text-center">小旦BOX</h1>
                     <div class="section-title-border margin-t-20"></div>
-                    <p class="section-subtitle font-secondary text-muted text-center padding-t-30">Reshape the AI drive application
-            pattern, creating unprecedented possibilities for AI and human intelligence fusion to pave the way.</p>
+                    <p class="section-subtitle font-secondary text-muted text-center padding-t-30">Reshape the AI drive
+                        application
+                        pattern, creating unprecedented possibilities for AI and human intelligence fusion to pave the way.
+                    </p>
                 </div>
             </div>
-            <div class="row padding-t-30">
-                <div class="chat-container d-flex justify-content-between col-lg-8 offset-lg-2">
+            <div class="row padding-t-30 justify-content-center">
+                <div class="chat-container d-flex justify-content-between col-lg-12">
                     <div class="chat-messages">
                         <div class="message received">
                             <p class="d-flex align-items-center justify-content-center">
@@ -44,7 +46,7 @@
 <style  scoped>
 ::v-deep .chat-container {
     flex-direction: column;
-    min-height: 400px;
+    min-height: 425px;
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;

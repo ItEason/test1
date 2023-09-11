@@ -13,7 +13,7 @@ export default {
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <h1 class="section-title text-center">Get In Touch</h1>
+          <h1 class="section-title text-center">联系我们</h1>
           <div class="section-title-border margin-t-20"></div>
           <p
             class="section-subtitle text-muted text-center font-secondary padding-t-30"

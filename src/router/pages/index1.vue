@@ -1,13 +1,11 @@
 <template>
   <div>
     <!-- STRAT NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-white navbar-custom sticky sticky-dark" id="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
       <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo text-uppercase" href="/">
           <i class="mdi">
-            <!-- <img src="@/assets/images/navbar/logo.png" alt="" srcset="">
-            <img src="@/assets/images/navbar/logo1(1).png" alt="" srcset=""> -->
             <img src="@/assets/images/navbar/logo3.png" alt="" srcset="">
           </i>
           xDAN -AI
@@ -19,10 +17,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav navbar-center" id="mySidenav" v-scroll-spy-active="{ class: 'active' }">
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a v-scroll-to="{ el: '#home' }" class="nav-link" data-scroll-spy-id="home"
                 href="javascript: void(0);">首页</a>
-            </li> -->
+            </li>
             <li class="nav-item">
               <a ref="navItem" v-scroll-to="{ el: '#features', offset: -5 }" class="nav-link"
                 data-scroll-spy-id="features" href="javascript: void(0);">介绍</a>
@@ -52,9 +50,10 @@
             <ul class="nav navbar-nav navbar-right">
               <li>
                 <div class="row">
-                  <form>
+                  <form class="btn navbar-btn btn-rounded">
                     <div class="form-group">
-                      <select class="form-control form-control-sm" v-model="language" id="languageSelect">
+                      <select class="form-control form-control-sm select" v-model="language" id="languageSelect"
+                        @change="changeLanguage">
                         <option value="zh">中文</option>
                         <option value="en">English</option>
                         <option value="fr">Français</option>
@@ -154,7 +153,7 @@
           </div>
         </div>
       </section>
-
+      <Scroll />
       <Features />
       <Services />
       <About />
@@ -178,6 +177,7 @@ import Pricing from "@/components/pricing";
 import Testimonial from "@/components/testimonial";
 import GetStarted from "@/components/getstarted";
 import Blog from "@/components/blog";
+import Scroll from "@/components/Scroll.vue";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Switcher from "@/components/switcher";
@@ -197,7 +197,8 @@ export default {
     Contact,
     Footer,
     Switcher,
-    BoxVue
+    BoxVue,
+    Scroll
   },
   mounted() {
     window.onscroll = function () {
@@ -224,17 +225,23 @@ export default {
      */
     toggleMenu() {
       document.getElementById("navbarCollapse").classList.toggle("show");
+    },
+    /**
+     * 修改语言
+     */
+    changeLanguage() {
+      window.localStorage.setItem('language', this.language)
     }
   },
   data() {
     return {
-      language: 'zh'
+      language: this.$store.state.language
     }
   }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #home {
   background-size: cover !important;
   background-position: center center !important;
@@ -255,9 +262,17 @@ export default {
   opacity: 0.5;
 }
 
-/* ::v-deep .navbar-custom.navbar-white .navbar-nav li a {
+.select {
+  border: none !important;
+  background: transparent !important;
   color: white !important;
-} */
+
+  option {
+    color: black;
+  }
+}
+
+
 ::v-deep .form-control,
 .form-group {
   margin-bottom: 0 !important;
